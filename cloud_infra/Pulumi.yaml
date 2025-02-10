@@ -1,0 +1,11 @@
+name: OpenTrapCameraInfra
+description: Cloud Infrastructure for the OpenTrapCamera Project
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
