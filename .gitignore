@@ -5,5 +5,8 @@
 __pycache__/
 *.pyc
 
+# Editor files
+.nova
+
 # Repo files
 /images
