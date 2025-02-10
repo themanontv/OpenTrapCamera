@@ -2,7 +2,6 @@
 
 import pulumi
 from pulumi_aws import s3
-from pulumi_aws import iam
 
 # Create an AWS resource (S3 Bucket)
 bucket = s3.BucketV2('image-bucket')
